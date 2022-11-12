@@ -3,7 +3,6 @@
 from random import choice
 from sys import argv
 
-
 def open_and_read_file(file_path):
     """Take file path as string; return text as string.
 
@@ -104,3 +103,4 @@ chains = make_chains(input_text, 4)
 random_text = make_text(chains)
 
 print(random_text)
+
