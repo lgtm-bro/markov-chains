@@ -47,7 +47,7 @@ def make_chains(text_string, n):
 
     chains = {}
 
-    words = text_string.split(' ')
+    words = text_string.strip().split(' ')
 
     for i in range(len(words) - n):
         length = 0
